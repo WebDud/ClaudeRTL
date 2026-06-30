@@ -83,6 +83,7 @@ auto-runs on load.
   classes, so unusual mixes can occasionally guess wrong.
 - **DevTools must be available** on your build for this to work. It generally is.
 
+
 ---
 
 ## Credits
@@ -91,6 +92,10 @@ Detection logic and CSS originate from
 [`shraga100/claude-desktop-rtl-patch`](https://github.com/shraga100/claude-desktop-rtl-patch).
 The LaTeX-isolation approach is credited there to
 [Claude-UniMath](https://github.com/DavidiBellaire/Claude-UniMath) by Davidi Bellaire.
+
+## License
+
+MIT.
 
 ---
 
