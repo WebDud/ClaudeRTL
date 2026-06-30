@@ -42,7 +42,7 @@ saved in DevTools' own storage; you just re-run it per session).
    open DevTools. *(You may see two DevTools windows — use the main one.)*
 2. Go to the **Sources** tab → **Snippets** in the left panel (behind the `»` overflow
    if hidden) → **+ New snippet**, name it `claude-rtl`.
-3. Paste the contents of [`dist/claude-rtl.js`](dist/claude-rtl.js) into the editor and
+3. Paste the contents of [`ClaudeRTL/claude-rtl.js`](ClaudeRTL/claude-rtl.js) into the editor and
    press **Ctrl+S**.
 4. Run it: **Ctrl+Enter** (or right-click the snippet → Run).
 
