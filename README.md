@@ -78,21 +78,6 @@ Detection highlights:
 
 ---
 
-## Tuning
-
-If a block lands the wrong way, the knobs live in `src/rtl-core.js`:
-
-- Code-block flip → `looksLikeRTLProse` (the `rtl <= latin` margin, the `0.08` symbol
-  threshold, and `CODE_SYMBOLS`).
-- Table flips → `cellDir` / `tableDirFromCells`.
-- Unsupported script → add its Unicode block to `RTL_RANGES`.
-- Math edge cases → `findLatexRanges` / `hasLatexSignal`.
-
-Add a unit test to `test/rtl-core.test.js` for the case (use realistic whole-block text,
-not a single line), then `npm test` → `npm run build`.
-
----
-
 ## Limitations
 
 - **Not automatic.** The snippet must be re-run once per app session (a few keystrokes).
@@ -101,12 +86,6 @@ not a single line), then `npm test` → `npm run build`.
   classes, so unusual mixes can occasionally guess wrong. Tunable (see above).
 - **DevTools must be available** on your build for the snippet method. It generally is.
 
----
-
-## Roadmap
-
-The real fix is **native RTL support in Claude Desktop**. If you rely on this, consider
-requesting it through Anthropic's official channels — RTL readers are a large audience.
 
 ---
 
