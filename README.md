@@ -33,7 +33,7 @@ written to disk, and it survives app updates.
 
 ---
 
-## Quick start (recommended: DevTools snippet)
+## Quick start with DevTools snippet
 
 This works on any Claude Desktop build and persists across restarts (the snippet is
 saved in DevTools' own storage; you just re-run it per session).
